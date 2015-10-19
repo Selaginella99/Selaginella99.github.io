@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Miaozhu Li - Publications</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="author" content="Miaozhu Li">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <meta name="description" content="Miaozhu Li's Website" />
+    <meta name="keywords" content="Miaozhu Li" />
+
+    <link rel="shortcut icon" href="../favicon.ico">
+
+    <!--CSS styles-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/perfect-scrollbar-0.4.5.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link id="theme-style" rel="stylesheet" href="css/styles/default.css">
+
+
+    <!--/CSS styles-->
+    <!--Javascript files-->
+    <script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="js/TweenMax.min.js"></script>
+    <script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
+    <script type="text/javascript" src="js/jquery.carouFredSel-6.2.1-packed.js"></script>
+
+    <script type="text/javascript" src="js/modernizr.custom.63321.js"></script>
+    <script type="text/javascript" src="js/jquery.dropdownit.js"></script>
+
+    <script type="text/javascript" src="js/jquery.stellar.min.js"></script>
+    <script type="text/javascript" src="js/ScrollToPlugin.min.js"></script>
+
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+
+    <script type="text/javascript" src="js/masonry.min.js"></script>
+
+    <script type="text/javascript" src="js/perfect-scrollbar-0.4.5.with-mousewheel.min.js"></script>
+
+    <script type="text/javascript" src="js/magnific-popup.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+
+    <!--/Javascript files-->
+
+</head>
+<body>
+
+<div id="wrapper">
+<a href="#sidebar" class="mobilemenu"><i class="icon-reorder"></i></a>
+
+<div id="sidebar">
+    <div id="main-nav">
+        <div id="nav-container">
+            <div id="profile" class="clearfix">
+                <div class="portrate hidden-xs"></div>
+                <div class="title">
+                    <h2>Miaozhu Li</h2>
+                    <h3>Duke University</h3>
+                </div>
+
+            </div>
+            <ul id="navigation">
+                <li>
+                    <a href="index.html">
+                        <div class="icon icon-user"></div>
+                        <div class="text">About Me</div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="research.html">
+                        <div class="icon icon-book"></div>
+                        <div class="text">Research</div>
+                    </a>
+                </li>
+
+                <li class="currentmenu">
+                    <a href="publication.html">
+                        <div class="icon icon-edit"></div>
+                        <div class="text">Publications</div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="gallery.html">
+                        <div class="icon icon-picture"></div>
+                        <div class="text">Gallery</div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="contact.html">
+                        <div class="icon icon-calendar"></div>
+                        <div class="text">Contact Me</div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="cv-miaozhuli.pdf">
+                        <div class="icon icon-download-alt"></div>
+                        <div class="text">Download CV</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="social-icons">
+        <ul>
+            <li><a href="https://twitter.com/Selaginellav"><i class="icon-twitter"></i></a></li>
+            <li><a href="http://www.linkedin.com/pub/miaozhu-li/26/4a1/b56/en"><i class="icon-linkedin"></i></a></li>
+            <li><a href="https://github.com/Selaginella99"><i class="icon-github"></i></a></li>
+        </ul>
+    </div>
+</div>
+
+<div id="main">
+
+<div id="publications" class="page">
+<div class="page-container">
+<div class="pageheader">
+    <div class="headercontent">
+        <div class="section-container">
+
+            <h2 class="title">Publications</h2>
+            <div class="row">
+                <div class="col-md-12">
+                    <p>The current and future publications of mine will be listed here.</p>
+                    <p>If you have any related questions, please feel free to <a href="contact.html">contact me</a>.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="pagecontents">
+
+<div class="section color-1" id="filters">
+    <div class="section-container">
+        <div class="row">
+
+            <div class="col-md-3">
+                <h3>Filter by type:</h3>
+            </div>
+            <div class="col-md-6">
+                <select id="cd-dropdown" name="cd-dropdown" class="cd-select">
+                    <option class="filter" value="all" selected>All types</option>
+                    <option class="filter" value="jpaper">Jounal Papers</option>
+                    <option class="filter" value="bookchapter">Book Chapters</option>
+                    <option class="filter" value="cpaper">Conference Posters</option>
+                    <option class="filter" value="report">Oral Presentations</option>
+                    <!-- <option class="filter" value="book">Books</option>
+                    <option class="filter" value="tpaper">Technical Papers</option> -->
+                </select>
+            </div>
+
+            <div class="col-md-3" id="sort">
+                <span>Sort by year:</span>
+                <div class="btn-group pull-right">
+
+                    <button type="button" data-sort="data-year" data-order="desc" class="sort btn btn-default"><i class="icon-sort-by-order"></i></button>
+                    <button type="button" data-sort="data-year" data-order="asc" class="sort btn btn-default"><i class="icon-sort-by-order-alt"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section color-2" id="pub-grid">
+<div class="section-container">
+
+<div class="row">
+<div class="col-md-12">
+<div class="pitems">
+
+<div class="item mix jpaper" data-year="2015">
+    <div class="pubmain">
+        <div class="pubassets">
+
+            <a href="#" class="pubcollapse">
+                <i class="icon-expand-alt"></i>
+            </a>
+            <a href="http://dx.doi.org/10.1016/j.jdermsci.2015.04.001" class="tooltips" title="External link" target="_blank">
+                <i class="icon-external-link"></i>
+            </a>
+            <a href="paper/jds2015.pdf" class="tooltips" title="Download" target="_blank">
+                <i class="icon-cloud-download"></i>
+            </a>
+
+        </div>
+
+        <h4 class="pubtitle">Epidemiological evidence that indoor air pollution from cooking with solid fuels accelerates skin aging in Chinese women</h4>
+        <div class="pubauthor"><strong>Miaozhu Li*</strong>, A. Vierkoöetter*, T. Schikowski*, A Hüls, M. Matsui, B. Deng, C. Ma, A. Ren, J. Zhang, J. Tan, Y Yang, L. Jin, J. Krutmann*, Z. Li*, S. Wang*  (* equal contribution)</div>
+        <div class="pubcite"><span class="label label-success">Journal Paper</span> Journal of Dermatological Science, 79(2): 148–154, 2015</div>
+
+    </div>
+    <div class="pubdetails">
+        <h4>Abstract</h4>
+        <p><strong>Background</strong> Recently, we showed that outdoor air pollution exposure from traffic and industry is associated with an increased risk of skin aging in Caucasian women. In China, indoor air pollution exposure caused by the use of solid fuels like coal is a major health problem and might also increase the risk of skin aging in Chinese women.</p>
+        <p><strong>Objective</strong> As cooking with solid fuels is a major source of indoor air pollution exposure in China, we aimed to test if cooking with solid fuels is associated with more pronounced skin aging in Chinese women.</p>
+        <p><strong>Methods</strong> We conducted two cross-sectional studies in China to assess the association between cooking with solid fuels and signs of skin aging. In Pingding (in northern China) we assessed N = 405 and in Taizhou (in southern China) N = 857 women between 30 and 90 years of age. Skin aging was evaluated by the SCINEXA™ score. Indoor air pollution exposure, sun exposure, smoking and other confounders were assessed by questionnaires. Associations were then tested by linear and logistic regression analyses adjusted for further confounders.</p>
+        <p><strong>Results</strong> The analysis showed that cooking with solid fuels was significantly associated with a 5–8% more severe wrinkle appearance on face and an 74% increased risk of having fine wrinkles on back of hands in both studies combined, independent of age and other influences on skin aging.</p>
+        <p><strong>Conclusion</strong> The present studies thus corroborate our previous finding that air pollution is associated with skin aging and extend it by showing that indoor air pollution might be another risk factor for skin aging.</p>
+    </div>
+</div>
+
+<div class="item mix jpaper" data-year="2015">
+    <div class="pubmain">
+        <div class="pubassets">
+
+            <a href="#" class="pubcollapse">
+                <i class="icon-expand-alt"></i>
+            </a>
+            <a href="http://dx.doi.org/10.3389/fgene.2015.00122" class="tooltips" title="External link" target="_blank">
+                <i class="icon-external-link"></i>
+            </a>
+            <a href="paper/fgene-06-00122.pdf" class="tooltips" title="Download" target="_blank">
+                <i class="icon-cloud-download"></i>
+            </a>
+
+        </div>
+
+        <h4 class="pubtitle">Genetics of aging, health and survival: Dynamic regulation of human longevity related traits</h4>
+        <div class="pubauthor">A.I. Yashin, D. Wu, L.S. Arbeeva, K.G. Arbeev, A.M. Kulminski, I. Akushevich, M. Kovtun, I. Culminskaya, E. Stallard, <strong>Miaozhu Li</strong>, S.V. Ukraintseva</div>
+        <div class="pubcite"><span class="label label-success">Journal Paper</span> Front Genet. 2015; 6: 122</div>
+
+    </div>
+    <div class="pubdetails">
+        <h4>Abstract</h4>
+        <p><strong>Background</strong> The roles of genetic factors in human longevity would be better understood if one can use more efficient methods in genetic analyses and investigate pleiotropic effects of genetic variants on aging and health related traits.</p><p><strong>Data and methods</strong> We used EMMAX software with modified correction for population stratification to perform genome wide association studies (GWAS) of female lifespan from the original FHS cohort. The male data from the original FHS cohort and male and female data combined from the offspring FHS cohort were used to confirm findings. We evaluated pleiotropic effects of selected genetic variants as well as gene-smoking interactions on health and aging related traits. Then we reviewed current knowledge on functional properties of genes related to detected variants.</p><p><strong>Results</strong> The eight SNPs with genome-wide significant variants were negatively associated with lifespan in both males and females. After additional QC, two of these variants were selected for further analyses of their associations with major diseases (cancer and CHD) and physiological aging changes. Gene-smoking interactions contributed to these effects. Genes closest to detected variants appear to be involved in similar biological processes and health disorders, as those found in other studies of aging and longevity e.g., in cancer and neurodegeneration.</p><p><strong>Conclusions</strong> The impact of genes on longevity may involve trade-off-like effects on different health traits. Genes that influence lifespan represent various molecular functions but may be involved in similar biological processes and health disorders, which could contribute to genetic heterogeneity of longevity and the lack of replication in genetic association studies.</p>
+    </div>
+</div>
+
+<div class="item mix cpaper" data-year="2014">
+    <div class="pubmain">
+        <div class="pubassets">
+
+            <a href="#" class="pubcollapse">
+                <i class="icon-expand-alt"></i>
+            </a>
+            <a href="http://dx.doi.org/10.1038/jid.2014.105" class="tooltips" title="External link" target="_blank">
+                <i class="icon-external-link"></i>
+            </a>
+
+        </div>
+
+        <h4 class="pubtitle">Ethnic differences and environmental factors in skin aging</h4>
+        <div class="pubauthor"><strong>Miaozhu Li*</strong>, A. Vierkoöetter*, A Ding, MS Matsui, B Deng, J Zhang, J Tan, Y Yang, T Schikowski, L Jin, J Krutmann, S Wang (* co-first authors)</div>
+        <div class="pubcite"><span class="label label-warning">Conference Poster</span> Journal of Investigative Dermatology, 134: S61-S71</div>
+
+    </div>
+    <div class="pubdetails">
+        <h4>Abstract</h4>
+        <p>Environmental factors may interact with different genetic backgrounds to impact skin aging. In this study, we (i) compared ethnic differences in skin aging between Chinese and German women and (ii) explored environmental factors in both populations. Chinese and German women 65-90 years old were recruited and skin aging was assessed by the SCINEXA (TM). In adjusted regression analysis, we found that wrinkles under eyes (p<0.001), on upper lips (p=0.001) as well as laxity of eyelids (p=0.025) and cheeks (p<0.001) were more pronounced in Germans; while wrinkles on forehead (p<0.001) and nasolabial folds (p=0.002) were more pronounced in Chinese. Chinese showed larger pigment spots on forehead (p<0.001) and on cheeks (p<0.001); while Germans had larger number of pigment spots on arms (p<0.001) and hands (p=0.001). Skin aging signs were affected by environmental factors: sun exposure, smoking, alcohol consumption, education, pregnancy, use of contraception, and use of fossil fuels. Sun exposure had a more significant effect in Germans, affecting 12 skin aging signs, particularly signs related to pigment spots. In Chinese, indoor air pollution from cooking had a greater effect, affecting 7 skin aging signs. Cooking with fossil fuels primarily affected wrinkle related signs, including wrinkles on forehead (p<0.001), in the crow's feet area (p=0.001), on upper lip (p<0.036) and nasolabial fold (p<0.001) as well as laxity of eyelids (p=0.007), laxity of cheeks (p=0.019) and fine wrinkles on hands (p=0.027). Our results confirm previous published findings that air pollution accelerates the appearance of skin aging symptoms. They also suggest that clinical manifestations of skin aging are modified by the type of pollution (indoor versus outdoor) as well as the ethnic background (Chinese versus Caucasian), indicating the existence of gene/environment interactions.</p>
+    </div>
+</div>
+
+<div class="item mix cpaper" data-year="2014">
+    <div class="pubmain">
+        <div class="pubassets">
+
+            <a href="#" class="pubcollapse">
+                <i class="icon-expand-alt"></i>
+            </a>
+            <a href="http://dx.doi.org/10.1038/jid.2014.105" class="tooltips" title="External link" target="_blank">
+                <i class="icon-external-link"></i>
+            </a>
+
+        </div>
+
+        <h4 class="pubtitle">Indoor air pollution from cooking with coal or firewood accelerates skin aging in northern Chinese women</h4>
+        <div class="pubauthor">A Vierköetter*, <strong>Miaozhu Li*</strong>, C Ma, B Deng, MS Matsui, J Krutmann, Z Li (* co-first authors)</div>
+        <div class="pubcite"><span class="label label-warning">Conference Poster</span> Journal of Investigative Dermatology, 134: S61-S71</div>
+
+    </div>
+    <div class="pubdetails">
+        <h4>Abstract</h4>
+        <p>Recently we showed that exposure to outdoor air pollution from traffic and industry is associated with an increased risk for skin aging in German women. In the present cross-sectional study we studied 403 Chinese women from 30 to 80 years old to assess the association between indoor air pollution from cooking with coal or firewood and skin aging in Chinese women from a northern, rural area of China. Skin aging was evaluated by a validated tool, the SCINEXA (TM). Indoor air pollution exposure, sun exposure, smoking and other confounders were assessed by validated questionnaires. In adjusted linear and logistic regression analyses we tested the association between indoor air pollution and skin aging. We found that indoor air pollution was significantly associated with an increased appearance of wrinkles on the forehead (p=0.03), wrinkles under the eyes (p=0.002), and wrinkles on the upper lip (p=0.030), frown lines (p=0.006), depth of the nasolabial fold (p<0.001), telangiectasia (p<0.001), laxity of eyelids (p<0.001), cheek laxity (p=0.003), pigment spots on back of arms (p=0.003) and hands (p=0.003), uneven pigmentation on bottom side of the arm (p=0.039) and fine wrinkles on back of hands (p<0.001). Previously, in German women, we observed a significant increase in the nasolabial fold depth with an increase in outdoor air pollution, but also a pronounced increase of pigment spots on face, which we did not observe in the present study in Chinese women. The present study thus corroborates our previous finding that air pollution is associated with skin aging and extends it by showing that (i) indoor air pollution might be another risk factor for skin aging and that (ii) ethnic differences might influence the clinical manifestation of pollution-driven skin aging.</p>
+    </div>
+</div>
+
+<div class="item mix jpaper" data-year="2011">
+    <div class="pubmain">
+        <div class="pubassets">
+
+            <a href="#" class="pubcollapse">
+                <i class="icon-expand-alt"></i>
+            </a>
+            <a href="http://dx.doi.org/10.1038/jid.2011.86" class="tooltips" title="External link" target="_blank">
+                <i class="icon-external-link"></i>
+            </a>
+            <a href="paper/jid201186a.pdf" class="tooltips" title="Download" target="_blank">
+                <i class="icon-cloud-download"></i>
+            </a>
+
+        </div>
+
+        <h4 class="pubtitle">Deletion of the late cornified envelope genes <em>LCE3C</em> and <em>LCE3B</em> is associated with psoriasis in a Chinese population</h4>
+        <div class="pubauthor"><strong>Miaozhu Li</strong>, Wu Y, Chen G, Yang Y, Zhou D, Zhang Z, Zhang D, Chen Y, Lu Z, He L, Zheng J, Liu Y</div>
+        <div class="pubcite"><span class="label label-success">Journal Paper</span> Journal of Investigative Dermatology, 131(8): 1639–1643, 2011</div>
+
+    </div>
+    <div class="pubdetails">
+        <h4>Abstract</h4>
+        <p>A common deletion comprising <em>LCE3B</em> and <em>LCE3C</em>, members of the late cornified envelope (<em>LCE</em>) gene cluster, has been shown to be significantly associated with psoriasis in several Caucasian populations. The expression of <em>LCE</em> can be induced by skin barrier disruption, leading to psoriatic lesions. To identify whether deletion of genes in the <em>LCE</em> region is a genetic risk factor in the pathogenesis of psoriasis, we genotyped the <em>LCE3C</em> and <em>LCE3B</em> deletion and single-nucleotide polymorphism rs4112788, which is in strong linkage disequilibrium with the <em>LCE</em> gene cluster, via direct sequencing in 468 psoriasis patients and 768 controls in a Chinese population. We found that deletion of the two <em>LCE</em> genes was associated with psoriasis (odds ratio=1.917; 95% confidence interval=1.291–2.847, P=0.001), a conclusion that was similar to that of another independent Chinese cohort study. The deletion was not significantly associated with the age of disease onset, and there was no significant epistatic interaction between deletion and <em>PSORS1</em> risk allele on 6p21.3. Our study confirms an association between the deletion of <em>LCE3C</em> and <em>LCE3B</em> and psoriasis in a Chinese population.</p>
+    </div>
+</div>
+
+<div class="item mix jpaper" data-year="2011">
+    <div class="pubmain">
+        <div class="pubassets">
+
+            <a href="#" class="pubcollapse">
+                <i class="icon-expand-alt"></i>
+            </a>
+            <a href="http://xuebao.shsmu.edu.cn/EN/abstract/abstract9145.shtml" class="tooltips" title="External link" target="_blank">
+                <i class="icon-external-link"></i>
+            </a>
+
+        </div>
+
+        <h4 class="pubtitle">Meta-analyses of correlation between tea consumption and risk of ovarian cancer</h4>
+        <div class="pubauthor">S Wu, <strong>Miaozhu Li</strong>, Y Liu, M Wei</div>
+        <div class="pubcite"><span class="label label-success">Journal Paper</span> Journal of Shanghai Jiaotong University (Medical Science), 31(6): 840-845, 2011</div>
+
+    </div>
+    <div class="pubdetails">
+        <h4>Abstract</h4>
+        <p><strong>Objective</strong> To explore the correlation between tea consumption and risk of ovarian cancer through Meta-analysis.</p><p><strong>Methods</strong> Relative studies published between 1995 and 2010 about tea consumption and risk of ovarian cancer were searched in Pubmed, EMbase, CBMdisc, CNKI and Wanfang Data. All reports were systemically reviewed, and Meta-analysis was performed by RevMan 5.1.0 software.</p><p><strong>Results</strong> A total of 9 domestic and overseas case-control studies and cohort studies were included, with 4 571 cases and 65 215 controls. Meta-analysis revealed that tea consumption significantly decreased the risk of ovarian cancer (RR, 0.82; 95%CI, 0.70-0.96; P<0.001), and the effect was more significant for green tea consumption (RR, 0.69; 95%CI, 0.54-0.90; P=0.006).</p><p><strong>Conclusion</strong> Tea consumption, especially green tea consumption, may reduce the risk of ovarian cancer.</p>
+    </div>
+</div>
+
+<div class="item mix jpaper" data-year="2012">
+    <div class="pubmain">
+        <div class="pubassets">
+
+            <a href="#" class="pubcollapse">
+                <i class="icon-expand-alt"></i>
+            </a>
+            <a href="http://dx.doi.org/10.3892/mmr.2012.762" class="tooltips" title="External link" target="_blank">
+                <i class="icon-external-link"></i>
+            </a>
+            <a href="paper/mmr_5_4_974.pdf" class="tooltips" title="Download" target="_blank">
+                <i class="icon-cloud-download"></i>
+            </a>
+
+        </div>
+
+        <h4 class="pubtitle">AlloDerm implants for prevention of Frey syndrome after parotidectomy: A systematic review and meta-analysis</h4>
+        <div class="pubauthor">X Zeng, X Tang, X Wang, <strong>Miaozhu Li</strong>, Y Guo, W Huang, Y Niu, W Leng.</div>
+        <div class="pubcite"><span class="label label-success">Journal Paper</span> Molecular Medicine Reports, 5(4): 974-980, 2012</div>
+
+    </div>
+    <div class="pubdetails">
+        <h4>Abstract</h4>
+        <p>Although Frey syndrome is not life-threatening, it is identified as the most serious and widely recognized sequela of parotidectomy and has significant potential negative social and psychological implications. Several studies have investigated whether AlloDerm® implants prevent Frey syndrome effectively and safely, however, the conclusions are inconsistent. We aimed to evaluate the precise effectiveness of AlloDerm implants for preventing Frey syndrome after parotidectomy, using a systematic review and meta-analysis. We searched randomized and quis-randomized controlled trials in which AlloDerm implants were compared to blank controls for preventing Frey syndrome after parotidectomy, from the PubMed, Embase, the Cochrane Library and the ISI Web of Knowledge databases, without any language restriction. Two reviewers independently searched, identified, extracted data and assessed methodological quality. Relative risks with 95% confidence intervals were calculated and pooled. Five articles involving 409 patients met the inclusion criteria. Meta-analyses showed a significant 85% relative risk reduction in objective incidence (RR=0.15, 95% CI 0.08-0.30; P<0.00001) and 68% in subjective incidence (RR=0.32, 95% CI 0.19-0.57; P<0.00001) of Frey syndrome with AlloDerm implants; there was a significant 91% relative risk reduction in salivary fistula (RR=0.09, 95% CI 0.01-0.66; P=0.02); there was no statistical significance for the incidence of facial nerve paralysis (RR=0.96, 95% CI 0.84‑1.09; P=0.51); there was no statistical significance for the incidence of seroma/sialocele (RR=1.36, 95% CI 0.66-2.80; P=0.40); there was a trend for a small effect in improving facial contour. Adverse events related to AlloDerm implants were not found. There is evidence that AlloDerm reduces the incidence of Frey syndrome effectively and safely, and also has the potential to improve facial contour and decrease salivary fistula. However, it is unclear whether AlloDerm implants improve facial contour and decrease other complications. Thus, further controlled evaluative studies incorporating more precise measures are required.</p>
+    </div>
+</div>
+
+<div class="item mix bookchapter" data-year="2015">
+    <div class="pubmain">
+        <div class="pubassets">
+
+            <a href="#" class="pubcollapse">
+                <i class="icon-expand-alt"></i>
+            </a>
+
+        </div>
+
+        <h4 class="pubtitle">
+            Meta-Analysis of Correlation Coefficients with metacor and MAc
+        </h4>
+        <div class="pubauthor"><strong>Miaozhu Li</strong></div>
+        <div class="pubauthor">In: Applied Meta-Analysis using R, X. Zeng ed.</div>
+        <div class="pubcite">
+            <span class="label label-info">Book Chapter</span> Beijing: Military Medical Science Press | 2015 | In press.
+        </div>
+
+    </div>
+</div>
+
+<div class="item mix cpaper" data-year="2014">
+    <div class="pubmain">
+        <div class="pubassets">
+
+            <a href="#" class="pubcollapse">
+                <i class="icon-expand-alt"></i>
+            </a>
+
+        </div>
+
+        <h4 class="pubtitle">Environmental and lifestyle factors affecting skin aging in different ethnic groups</h4>
+        <div class="pubauthor"><strong>Miaozhu Li</strong>, A. Vierköetter, A Ding, MS Matsui, J Tan, T Schikowski, L Jin, J Krutmann, S Wang</div>
+        <div class="pubcite"><span class="label label-warning">Conference Poster</span> CAS-MPG PICB Scientific Exchange Meeting, Shanghai, June 2014.</div>
+
+    </div>
+    <div class="pubdetails">
+        <h4>Abstract</h4>
+        <p>Environmental factors may interact with different genetic backgrounds to impact skin aging. The current study reports the ethnic differences in skin aging between Chinese and German women, and environmental and lifestyle factors affecting skin aging in two populations.</p>
+    </div>
+</div>
+
+<div class="item mix report" data-year="2013">
+    <div class="pubmain">
+        <div class="pubassets">
+
+            <a href="#" class="pubcollapse">
+                <i class="icon-expand-alt"></i>
+            </a>
+
+        </div>
+
+        <h4 class="pubtitle">
+            Interactions between filaggrin mutations and traffic-related pollution in the induction of eczema in children
+        </h4>
+        <div class="pubauthor"><strong>Miaozhu Li</strong>, E Link, C Cramer, D Sugiri, H Lin, U Krämer</div>
+        <div class="pubcite">
+            <span class="label label-primary">Oral Presentation</span> Shanghai Doctoral Public Lectures in Biology | December, 2013
+        </div>
+
+    </div>
+</div>
+
+<div class="item mix jpaper" data-year="2014">
+    <div class="pubmain">
+        <div class="pubassets">
+
+            <a href="#" class="pubcollapse">
+                <i class="icon-expand-alt"></i>
+            </a>
+        </div>
+
+        <h4 class="pubtitle">Indoor air pollution from cooking with fossil fuels accelerates skin aging in Chinese women</h4>
+        <div class="pubauthor"><strong>Miaozhu Li*</strong>, A. Vierkötter*, T. Schikowski, A. Ding, M. S. Matsui, B. Deng, J. Zhang, J. Tan, Y. Yang, L. Jin, J. Krutmann, Z. Li, S. Wang (* co-first authors)</div>
+        <div class="pubcite"><span class="label label-success">Journal Paper</span> Under review.</div>
+
+    </div>
+    <div class="pubdetails">
+        <h4>Abstract</h4>
+        <p>To be added.</p>
+    </div>
+</div>
+
+<div class="item mix jpaper" data-year="2014">
+    <div class="pubmain">
+        <div class="pubassets">
+
+            <a href="#" class="pubcollapse">
+                <i class="icon-expand-alt"></i>
+            </a>
+        </div>
+
+        <h4 class="pubtitle">Interactions between filaggrin (<em>FLG</em>) mutations and traffic-related pollution in the induction of eczema in children.</h4>
+        <div class="pubauthor"><strong>Miaozhu Li</strong>, E Link, C Cramer, D Sugiri, H Lin, U Krämer</div>
+        <div class="pubcite"><span class="label label-success">Journal Paper</span> Under review.</div>
+
+    </div>
+    <div class="pubdetails">
+        <h4>Abstract</h4>
+        <p>To be added.</p>
+    </div>
+</div>
+
+<div class="item mix jpaper" data-year="2014">
+    <div class="pubmain">
+        <div class="pubassets">
+
+            <a href="#" class="pubcollapse">
+                <i class="icon-expand-alt"></i>
+            </a>
+        </div>
+
+        <h4 class="pubtitle">Variants <em>Fok1</em> and <em>Bsm1</em> are associated with the melanoma risk: evidence from the published epidemiological studies</h4>
+        <div class="pubauthor">W Hou, <strong>Miaozhu Li</strong>, X Wan, J Fan, T Chen</div>
+        <div class="pubcite"><span class="label label-success">Journal Paper</span> Under review.</div>
+
+    </div>
+    <div class="pubdetails">
+        <h4>Abstract</h4>
+        <p>To be added.</p>
+    </div>
+</div>
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+
+</div>
+</div>
+</body>
+</html>
